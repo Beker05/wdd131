@@ -73,7 +73,7 @@ section h2{
 
 main {
     display: flex; /* Usa Flexbox para colocar las tarjetas de manera horizontal */
-    gap: 20px; /* Espacio entre las tarjetas */
+    gap: 0px; /* Espacio entre las tarjetas */
     flex-wrap: wrap; /* Permite que las tarjetas se ajusten a una nueva línea si no caben en la misma fila */
 }
 
