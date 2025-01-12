@@ -89,26 +89,24 @@ main {
 
 
 .content-block1 {
-    width: 1000px;
-    display: flex; /* Activa Flexbox */
-    align-items: center; /* Alinea verticalmente la imagen y el texto */
-    gap: 10px; /* Espacio entre la imagen y el texto */
-    margin-bottom: 5px; /* Espacio debajo del bloque */
+    width: 1110px;
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin-bottom: 5px;
 }
 
-/* Estilo para la imagen */
 .content-block1 img {
     margin-bottom: 90px;
-    width: 250px; /* Ajusta el tamaño de la imagen */
-    height: auto; /* Mantiene la proporción de la imagen */
+    width: 250px; 
+    height: auto; 
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
-/* Estilo para el texto */
 .content-block1 p {
     text-align: left;
-    flex: 1; /* El texto ocupa el espacio restante */
+    flex: 1; 
     font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
@@ -121,61 +119,58 @@ font-weight: bolder;
 
 }
 
-/* Estilo para los bloques de contenido */
 .content-block2 {
-    display: flex; /* Activa Flexbox */
-    align-items: center; /* Alinea verticalmente la imagen y el texto */
-    gap: 30px; /* Espacio entre la imagen y el texto */
-    margin-bottom: 10px; /* Espacio entre los bloques */
+    display: flex; 
+    align-items: center; 
+    gap: 30px; 
+    margin-bottom: 10px; 
 }
 
-/* Estilo para las imágenes */
 .content-block2 img {
-    width: 200px; /* Ajusta el ancho de la imagen */
-    height: auto; /* Mantén la proporción de la imagen */
+    width: 200px; 
+    height: auto; 
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Estilo para los textos */
 .content-block2 p {
     text-align: left;
-    flex: 1; /* El texto ocupa el espacio disponible */
+    flex: 1; 
     font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
 }
 .card2 {
-    width: 550px; /* Ajusta el ancho de la tarjeta */
-    padding: 20px; /* Espaciado interno */
-    border: 2px solid #ddd; /* Borde de la tarjeta */
-    border-radius: 8px; /* Bordes redondeados */
-    background-color: #fff; /* Fondo blanco */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
-    margin-bottom: 20px; /* Espaciado inferior */
+    width: 550px; 
+    padding: 20px; 
+    border: 2px solid #ddd; 
+    border-radius: 8px; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 20px; 
 }   
 section ul {
-    padding: 0; /* Elimina el padding por defecto */
-    margin: 0; /* Elimina el margen por defecto */
-    display: flex; /* Usa flexbox para organizar los elementos */
-    flex-direction: column; /* Organiza los elementos verticalmente */
-    gap: 30px; /* Espacio entre los elementos de la lista */
+    padding: 0; 
+    margin: 0; 
+    display: flex; 
+    flex-direction: column; 
+    gap: 30px; 
     text-align: left;
     margin-left: 50px;
     margin-top: 150px;
   }
   
   ul li {
-    margin: 0; /* Elimina márgenes adicionales */
+    margin: 0;
   }
   
   ul li a {
-    color: rgb(6, 10, 244); /* Color del texto */
-    font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+    color: rgb(6, 10, 244); 
+    font-size: 1.5rem; 
   }
   
   ul li a:hover {
-    color: #f4a261; /* Cambia el color al pasar el ratón */
+    color: #f4a261; 
   }
 
 footer {
