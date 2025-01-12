@@ -16,14 +16,14 @@ h1 {
 }
 
 .yellow {
-    color: yellow; /* Cambia el color del texto a amarillo */
+    color: yellow;
     font-weight: bold; 
 }
 
 header nav {
     background-color: #353434;
-    display: flex; /* Flexbox para organizar los enlaces horizontalmente */
-    justify-content: center; /* Centra los enlaces de navegación */
+    display: flex;
+    justify-content: center; 
     padding: 10px;
 }
 
@@ -31,8 +31,8 @@ header nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; /* Asegura que los elementos de lista estén en fila */
-    gap: 20px; /* Espacio entre los enlaces */
+    display: flex;
+    gap: 20px;
 }
 
 nav ul li {
@@ -46,18 +46,18 @@ nav ul li a {
     transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
 }
 
-/* Efecto cuando el ratón pasa sobre los enlaces */
+
 nav ul li a:hover {
-    color: #f4a261; /* Cambio de color a anaranjado */
-    background-color: rgba(244, 162, 97, 0.2); /* Fondo suave cuando se pasa el ratón */
-    padding: 5px 10px; /* Añade relleno para un efecto de botón */
-    border-radius: 5px; /* Bordes redondeados */
+    color: #f4a261; 
+    background-color: rgba(244, 162, 97, 0.2); 
+    padding: 5px 10px;
+    border-radius: 5px;
 }
 
-/* Ajustes para pantallas más pequeñas */
+
 @media screen and (max-width: 768px) {
     nav ul li a {
-        font-size: 1.5rem; /* Reducción del tamaño de los enlaces */
+        font-size: 1.5rem; 
     }
 }
 
@@ -72,14 +72,14 @@ section h2{
 }
 
 main {
-    display: flex; /* Usa Flexbox para colocar las tarjetas de manera horizontal */
-    gap: 0px; /* Espacio entre las tarjetas */
-    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a una nueva línea si no caben en la misma fila */
+    display: flex; 
+    gap: 20px; 
+    flex-wrap: wrap;
 }
 
 
 .card1 {
-    width: 1200px;
+    width: 1000px;
     overflow: hidden;
     padding: 20px;
     border: 1px solid #ddd;
@@ -87,12 +87,13 @@ main {
     background-color: #fff;
 }
 
-/* Estilo para el bloque de contenido */
+
 .content-block1 {
+    width: 1000px;
     display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente la imagen y el texto */
-    gap: 50px; /* Espacio entre la imagen y el texto */
-    margin-bottom: 20px; /* Espacio debajo del bloque */
+    gap: 10px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 5px; /* Espacio debajo del bloque */
 }
 
 /* Estilo para la imagen */
@@ -108,7 +109,7 @@ main {
 .content-block1 p {
     text-align: left;
     flex: 1; /* El texto ocupa el espacio restante */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
 }
@@ -124,8 +125,8 @@ font-weight: bolder;
 .content-block2 {
     display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente la imagen y el texto */
-    gap: 50px; /* Espacio entre la imagen y el texto */
-    margin-bottom: 20px; /* Espacio entre los bloques */
+    gap: 30px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 10px; /* Espacio entre los bloques */
 }
 
 /* Estilo para las imágenes */
@@ -140,7 +141,7 @@ font-weight: bolder;
 .content-block2 p {
     text-align: left;
     flex: 1; /* El texto ocupa el espacio disponible */
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     line-height: 1.5;
     color: #333;
 }
