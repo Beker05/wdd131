@@ -89,7 +89,7 @@ main {
 
 
 .content-block1 {
-    width: 1000px;
+    width: 1110px;
     display: flex; /* Activa Flexbox */
     align-items: center; /* Alinea verticalmente la imagen y el texto */
     gap: 10px; /* Espacio entre la imagen y el texto */
