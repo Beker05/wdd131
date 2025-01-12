@@ -1,0 +1,200 @@
+header {
+    background-color: #1e4d71;
+    color: white;
+    padding-top: 20px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.yellow {
+    color: yellow; /* Cambia el color del texto a amarillo */
+    font-weight: bold; 
+}
+
+header nav {
+    background-color: #353434;
+    display: flex; /* Flexbox para organizar los enlaces horizontalmente */
+    justify-content: center; /* Centra los enlaces de navegación */
+    padding: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Asegura que los elementos de lista estén en fila */
+    gap: 20px; /* Espacio entre los enlaces */
+}
+
+nav ul li {
+    margin: 0px 60px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.3s ease, background-color 0.3s ease, padding 0.3s ease;
+}
+
+/* Efecto cuando el ratón pasa sobre los enlaces */
+nav ul li a:hover {
+    color: #f4a261; /* Cambio de color a anaranjado */
+    background-color: rgba(244, 162, 97, 0.2); /* Fondo suave cuando se pasa el ratón */
+    padding: 5px 10px; /* Añade relleno para un efecto de botón */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Ajustes para pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    nav ul li a {
+        font-size: 1.5rem; /* Reducción del tamaño de los enlaces */
+    }
+}
+
+section h2{
+    border: 1px solid #1e4d71;
+    border-radius: 15px 15px 0px 0px;
+    background-color: #1e4d71;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: aliceblue;
+}
+
+main {
+    display: flex; /* Usa Flexbox para colocar las tarjetas de manera horizontal */
+    gap: 20px; /* Espacio entre las tarjetas */
+    flex-wrap: wrap; /* Permite que las tarjetas se ajusten a una nueva línea si no caben en la misma fila */
+}
+
+
+.card1 {
+    width: 1200px;
+    overflow: hidden;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+/* Estilo para el bloque de contenido */
+.content-block1 {
+    display: flex; /* Activa Flexbox */
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 50px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio debajo del bloque */
+}
+
+/* Estilo para la imagen */
+.content-block1 img {
+    margin-bottom: 90px;
+    width: 250px; /* Ajusta el tamaño de la imagen */
+    height: auto; /* Mantiene la proporción de la imagen */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para darle profundidad */
+}
+
+/* Estilo para el texto */
+.content-block1 p {
+    text-align: left;
+    flex: 1; /* El texto ocupa el espacio restante */
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+}
+
+.place{
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 50px;
+font-weight: bolder;
+
+}
+
+/* Estilo para los bloques de contenido */
+.content-block2 {
+    display: flex; /* Activa Flexbox */
+    align-items: center; /* Alinea verticalmente la imagen y el texto */
+    gap: 50px; /* Espacio entre la imagen y el texto */
+    margin-bottom: 20px; /* Espacio entre los bloques */
+}
+
+/* Estilo para las imágenes */
+.content-block2 img {
+    width: 200px; /* Ajusta el ancho de la imagen */
+    height: auto; /* Mantén la proporción de la imagen */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para los textos */
+.content-block2 p {
+    text-align: left;
+    flex: 1; /* El texto ocupa el espacio disponible */
+    font-size: 1.5rem;
+    line-height: 1.5;
+    color: #333;
+}
+.card2 {
+    width: 550px; /* Ajusta el ancho de la tarjeta */
+    padding: 20px; /* Espaciado interno */
+    border: 2px solid #ddd; /* Borde de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    background-color: #fff; /* Fondo blanco */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaciado inferior */
+}   
+section ul {
+    padding: 0; /* Elimina el padding por defecto */
+    margin: 0; /* Elimina el margen por defecto */
+    display: flex; /* Usa flexbox para organizar los elementos */
+    flex-direction: column; /* Organiza los elementos verticalmente */
+    gap: 30px; /* Espacio entre los elementos de la lista */
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 150px;
+  }
+  
+  ul li {
+    margin: 0; /* Elimina márgenes adicionales */
+  }
+  
+  ul li a {
+    color: rgb(6, 10, 244); /* Color del texto */
+    font-size: 1.5rem; /* Ajusta el tamaño de la fuente */
+  }
+  
+  ul li a:hover {
+    color: #f4a261; /* Cambia el color al pasar el ratón */
+  }
+
+footer {
+    background-color: #1e4d71;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer p:last-of-type {
+    color: yellow;
+}
+
+
+#currentyear, #modifiedDate {
+    font-weight: bold;
+}
