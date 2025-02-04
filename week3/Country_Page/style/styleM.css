@@ -1,0 +1,53 @@
+/* Media Query para pantallas pequeñas */
+@media (max-width: 768px) {
+    header {
+      font-size: 20px;
+      padding: 15px;
+    }
+  
+    main {
+      padding: 20px;
+    }
+  
+    #Data, #weather {
+      width: 100%; /* Las secciones ocupan todo el ancho */
+      margin-bottom: 20px; /* Espaciado entre las secciones */
+    }
+  
+    #Data ul {
+      text-align: left; /* Alinear los textos a la izquierda */
+    }
+  
+    #weather h2 {
+      font-size: 1.5em;
+    }
+  
+    footer {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+  
+  /* Media Query para pantallas muy pequeñas (ej. móviles de pantalla chica) */
+  @media (max-width: 480px) {
+    header {
+      font-size: 18px;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    section {
+      padding: 15px;
+    }
+  
+    #Data h2, #weather h2 {
+      font-size: 1.5em;
+    }
+  
+    footer {
+      font-size: 12px;
+    }
+  }
+  
