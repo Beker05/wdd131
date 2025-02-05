@@ -15,8 +15,7 @@ header {
 }
 
 main {
-  background: url('/week3/Country_Page/images/machu\ pichu.jpg') no-repeat center center/cover;
-  color: white;
+  background: url('/week3/Country_Page/images/Machu_Picchu.webp') no-repeat center center/cover;
   padding: 50px;
   height: 900px;
 }
@@ -25,9 +24,11 @@ main {
   position: relative;
   top: 50px;
   right: 600px;
+  color: white;
 }
 
 #Data ul {
+  color: white;
   list-style: none; 
   padding: 0;
   margin: 0;
@@ -40,6 +41,7 @@ main {
   position: relative;
   top: 10px;
   left: 600px;
+  color: white;
 }
 
 #Data h2, #weather h2 {
