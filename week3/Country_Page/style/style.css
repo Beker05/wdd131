@@ -17,8 +17,7 @@ header {
 main {
   background: url('/week3/Country_Page/images/machu_picchu.jpg') no-repeat center/cover;
   padding: 50px;
-  height: 100vh;
-  width: 100%;
+  height: 900px;
 }
 
 #Data {
