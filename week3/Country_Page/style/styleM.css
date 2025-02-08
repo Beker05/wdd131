@@ -1,56 +1,64 @@
-@media (max-width: 768px) {
-  body {
+@media (max-width: 900px) {
+  .info-container {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(241, 241, 241, 0.96);
+    color: black;
+    padding-bottom: 50px;
+    
+  }
+
+  #Data, #weather {
+    width: 80%; /* Que ocupen casi todo el ancho */
+    padding: 50px;
+  }
+
+  #weather {
+    margin-top: -150px; /* Ajusta la cantidad según lo necesites */
+    margin-bottom: auto;
+  }
+
+  #Data {
+    margin-top: 50px; /* Ajusta la cantidad según lo necesites */
+  }
+
+  #Data, #weather {
+    background-color: rgba(255, 255, 255, 0.673); /* Fondo semitransparente */
+    color: black;
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra sutil */
+  }
+  
+  #Data h2, #weather h2 {
+    background-color: #0c3046;
+    color: white; /* Color del título */
+    font-size: 50px; /* Tamaño de fuente */
+    text-align: center;
+    margin: 0px;
+  }
+  
+  footer {
+    background: #0c3046; /* Color de fondo */
+    color: white; /* Color del texto */
+    padding: 10px;
+    margin: 0px;
+  }
+
+  .image-container {
+    width: 100%;  
+    height: 300px; /* Ajusta la altura según lo necesites */
+    background-image: url('../images/machu_picchu.jpg'); 
+    background-size: cover;  /* Ajusta la imagen para que cubra el contenedor */
+    background-position: center;  /* Centra la imagen */
+    background-repeat: no-repeat;  /* Evita que se repita */
+    min-height: 100vh;
+  }
+
+  main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; 
-  }
-
-  header {
-    width: 100%;
-    text-align: center;
-    background-color: #0c3046;
-    color: white;
-    padding: 10px 0;
-  }
-
-  main {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-  }
-
-  main img {
-    width: 100%; 
-    height: auto;
-    display: block;
-  }
-
-  .info-container {
-    width: 90%; 
-    margin: 20px auto; 
-    text-align: center;
-    display: flex;
-    flex-direction: column; 
-    align-items: center;
-  }
-
-  .info-container section {
-    background-color: white;
-    margin: 10px 0;
-    padding: 15px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-
-  footer {
-    width: 100%;
-    background-color: #0c3046;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
-    font-size: 12px;
+    justify-content: center;
+    background: none;
   }
 }
