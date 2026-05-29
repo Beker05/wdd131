@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="Us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Machu Picchu</title>
+    <link rel="stylesheet" href="styleCountry.css">
+    <script src="scriptCountry.js" defer></script>
+</head>
+<body>
+
+    <header>
+        <h1>Machu Picchu</h1>
+    </header>
+
+    <main>
+        <picture class="hero">
+            <source media="(max-width: 600px)" srcset="images-MachuPicchu/machu_pichu.webp">
+            <source media="(max-width: 1200px)" srcset="images-MachuPicchu/machu_picchu.webp">
+            <img src="images-MachuPicchu/machu_picchu.webp"
+                alt="Machu Picchu Peru"
+                width="1500"
+                height="750">
+        </picture>
+
+        <section class="card data-card">
+            <h2>Data</h2>
+            <ul>
+                <li><strong>Area:</strong> 32,592 sq km</li>
+                <li><strong>Population:</strong> 1,380,590</li>
+                <li><strong>Capital:</strong> Aguas Calientes</li>
+                <li><strong>Languages:</strong> Spanish, Quechua</li>
+                <li><strong>Currency:</strong> Peruvian Sol</li>
+                <li><strong>Time Zone:</strong> UTC -5</li>
+                <li><strong>Calling Code:</strong> +51</li>
+                <li><strong>Internet TLD:</strong> .pe</li>
+            </ul>
+        </section>
+
+        <section class="card weather-card">
+            <h2>Weather</h2>
+
+            <p>Temperature: <span id="temperature"></span> °C</p>
+            <p>Wind speed: <span id="wind-speed"></span> km/h</p>
+            <p>Wind Chill: <span id="wind-chill"></span> °C</p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; <span id="current-year"></span>
+            🎮 Beker Nerio Cubillas Alvarez - Perú
+        </p>
+
+        <p> 
+            last modified: 
+            <span id="last-modified"></span>
+        </p>
+    </footer>
+
+</body>
+</html>
